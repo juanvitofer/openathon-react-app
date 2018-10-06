@@ -1,4 +1,5 @@
 import React from 'react';
+import { Menu } from '../../components';
 
 /**
  * Header Component of the app
@@ -19,16 +20,7 @@ class Header extends React.Component {
                     />
                 </div>
                 <h1 className="Header__title">II OPENATHON Custom Open Cloud</h1>
-                <div className="Header__menu">
-                    <nav>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#innovation"></a>Innovation</li>
-                            <li><a href="#guestbook">Guestbook</a></li>
-                        </ul>
-                    </nav>
-                </div>
+                <Menu />
             </div>
         );
     }
